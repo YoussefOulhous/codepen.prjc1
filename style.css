@@ -1,0 +1,337 @@
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: #131313;
+    color: white;
+    width: 100%;
+}
+
+body header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+}
+
+body header #logo img{
+    width: 85px;
+    margin-left: 30px;
+    margin-top:15px;
+
+}
+
+body header #ul li{
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+body header #ul li ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+body header #ul li ul a:hover{
+    border-bottom: 3px solid white;
+    transition: 0.4s;
+    color: rgb(202, 29, 202);
+
+}
+
+#bell{
+    display: flex;
+    gap: 30px;
+}
+
+#bell button{
+    background-color: #131313;
+    color: rgb(202, 29, 202);
+    border: 1px solid rgb(202, 29, 202);
+    border-radius: 10px;
+    width:220px ;
+    height:60px ;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+
+#bell button:hover{
+    color: whitesmoke;
+    font-size:20px ;
+    font-weight: 550;
+    transition: 1s;
+    transform: scale(1.1);
+
+}
+
+#bell  i{
+    font-size: 45px;
+    color: rgb(202, 29, 202);
+    margin-top: 34px;
+    margin-right: 20px;
+
+}
+
+#bell  i:hover{
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+main #firstPage{
+display: flex;
+
+}
+
+.half1{
+    margin-left: 50px;
+}
+
+
+main .half1 #updateBtn {
+
+    background-color: #131313;
+    color: white;
+    width:300px ;
+    height: 55px;
+    font-size: 20px;
+    border: 0.5px solid white;
+    border-radius: 30px;
+    margin-top: 280px;
+    cursor: pointer;
+
+}
+
+.half1 h1{
+    font-size: 69px;
+    width: 655px;
+}
+
+.half1 h1 span{
+    color: rgb(240, 75, 240);
+}
+
+.half1 p{
+    font-size:22px ;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+
+#buttons{
+    display: flex;
+    gap: 70px;
+    
+}
+
+
+#buttons button{
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+
+}
+
+#buttons button a{
+
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color:rgb(233, 227, 227) ;
+}
+
+#buttons  #bt1 button{
+    background-color: rgb(202, 29, 202);
+    border-radius: 15px;
+    border:1px solid black ;
+}
+
+
+#buttons  #bt2 button{
+
+    background-color: #131313;
+    border-radius: 15px;
+    border: 1px solid rgb(202, 29, 202);
+    color: rgb(202, 29, 202);
+
+}
+
+
+
+
+
+
+main .half2 img {
+
+    width:60%;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 200px;
+    padding: 30px;
+    border-radius: 60px;
+}
+
+main .half2{
+    width: 100%; 
+}
+
+.footP1 img{
+    margin-top: 230px;
+    margin-left: 110px;
+}
+
+.secondPage h1{
+    margin-top: 200px;
+    padding: 30px;
+    font-size: 60px;
+}
+
+.secondPage h1 span{
+    color: rgb(240, 75, 240);
+}
+
+.secondPage #listbuttons{
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+}
+
+.secondPage #listbuttons button{
+    width:100px ;
+    height:40px ;
+    border-radius: 10px;
+    border:1px solid rgb(240, 75, 240) ;
+    background-color: #131313;
+}
+
+.secondPage #listbuttons a{
+    text-decoration:none ;
+    color: rgb(240, 75, 240);
+    font-size: 18px;
+    
+}
+
+.secondPage #listbuttons #all button{
+    background-color: rgb(240, 75, 240);
+    color: white;
+}
+
+.secondPage #listbuttons #all button a{
+    color: white;
+    font-weight: 600;
+}
+
+.secondPage #listbuttons #ph button{
+    width: 120px;
+}
+
+.secondPage #listbuttons :hover{
+    color: white;
+}
+
+
+#picturs{
+    /* display: flex;
+    width: 1440px; */
+    gap: 30px;
+    line-height: 30px;
+    margin-left: 130px;
+    
+
+}
+
+#picturs img{
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+}
+
+#picturs #sec1 {
+    width: 1800px;
+    display: flex;
+    gap: 30px;
+}
+
+#picturs #sec2{
+    width: 1800px;
+    display: flex;
+    gap: 30px;
+}
+
+#picturs img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#DiscoverMe{
+    margin-top: 50px;
+    margin-left: 690px;
+}
+
+#DiscoverMe {
+
+
+    width: 200px;
+    height: 60px;
+    background-color: rgb(202, 29, 202);
+    border-radius: 15px;
+    border:1px solid black ;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+footer{
+    background-color: #272525;
+    margin-top: 200px;
+    padding: 30px;
+}
+
+#sections{
+    display: flex;
+    margin-left: 400px;
+    gap: 100px;
+}
+
+#sections a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+
+
+#sections a:hover{
+    color: antiquewhite;
+}
+
+
+#icons{
+    display: flex;
+    margin-left: 470px;
+    margin-top: 100px;
+    gap: 100px;
+    font-size: 25px;
+    color: grey;
+    cursor: pointer;
+
+}
+
+
+#icons i:hover{
+    color: antiquewhite;
+}
+
+footer p{
+    margin-top: 50px;
+    margin-left: 640px;
+    color: grey;
+}
+
+
